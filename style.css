@@ -1,5 +1,30 @@
-body{
-    background-color:BFFFF1
+body {
+	background-color:#BFFFF1;
+	font-family:garamond;
+	font-size:20px;
+	max-width:800px;
+	margin: auto;
 }
-p {
+p,ul {
+	color:#379634;
+	padding-left:20px;
+	max-width:900px
+}
+ul{
+		list-style-position:inside;
+}
+a{
+	color:#0A3200;
+}
+ol {
+	font-size:30px;
+	color:#379634;
+	list-style-position:inside;
+}
+img {
+	
+	border-radius:50%;
+}
+h1,h2 {
+	color:#91A6FF;
 }
