@@ -5,13 +5,17 @@ body {
 	max-width:800px;
 	margin: auto;
 }
-p,ul {
+p{
 	color:#379634;
 	padding-left:20px;
-	max-width:900px
+	font-size:26px;
 }
-ul{
-		list-style-position:inside;
+ul {
+	padding: 4px;
+	width:315px;
+	list-style-type: none;
+	margin: left;
+	background-color:#b9bded;
 }
 a{
 	color:#0A3200;
@@ -29,6 +33,14 @@ img {
 h1,h2 {
 	color:#91A6FF;
 }
+li a{
+	color:#000;
+	display:block;
+	text-decoration:none;
+}
+li a:hover{
+	color:#379634;
+}
 .byline{
 	color:#91A6FF;
 	font-size:23px;
@@ -38,4 +50,12 @@ h1,h2 {
 		padding-left:20px;
 		padding-top:20px;
 		font-size:30px;
+}
+.ingredientsList{
+	font-size:30px;
+	background-color:#BFFFF1;
+	list-style-type: circle;
+}
+.ingredientsList li a {
+	text-decoration: underline;
 }
